@@ -32,9 +32,10 @@ function printForeignValues(value, sourceCurrency) {
         sourceCurrency,
         targetCurrency
       );
-      const displayValue = formatValueForDisplay(convertedValue);
-      console.info(`- ${displayValue} ${targetCurrency}`);
 
+      const displayValue = formatValueForDisplay(convertedValue);
+
+      console.info(`- ${displayValue} ${targetCurrency}`);
       console.info(`- ${convertedValue} ${targetCurrency}`);
     }
   }
