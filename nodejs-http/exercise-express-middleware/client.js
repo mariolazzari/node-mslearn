@@ -7,9 +7,9 @@ http.get(
     path: "/users",
     headers: {},
   },
-  (res) => {
+  res => {
     console.log("connected");
-    res.on("data", (chunk) => {
+    res.on("data", chunk => {
       console.log("chunk", "" + chunk);
     });
     res.on("end", () => {
