@@ -18,7 +18,7 @@ async function findSalesFiles(folderName) {
         // Make sure the discovered file is a sales.json file
         if (item.name === "sales.json") {
           // store the file path in the salesFiles array
-          await salesFiles.push(`${folderName}/${item.name}`);
+          salesFiles.push(`${folderName}/${item.name}`);
         }
       }
     }
