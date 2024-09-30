@@ -17,6 +17,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.10.0"
+    "eslint": "^9.11.1"
   }
 }
